@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <p>Finding html elements by tag names</p>
+        <P>demonstration of  get elements by tag name</P>
+        <p id="p1"></p>
+        <script>
+          const element=document.getElementsByTagName("p");
+          document.getElementById("p1").innerHTML='the text in 1rst paragraph is:' + element[1].innerHTML;
+        </script>
+    </body>
+</html>
